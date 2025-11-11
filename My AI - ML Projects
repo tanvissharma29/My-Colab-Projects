@@ -1,0 +1,27 @@
+This repository contains beginner friendly AI & ML projects developed in Google Colab. Each project includes a notebook , dataset and visualisations to showcase the model's performance.
+
+1. FIRE & SMOKE DETECTION MODEL : 
+                                   GOAL: Detects fire and smoke by uploading images using YOLO V8 algorithm.
+                                   DATASET: Uploaded dataset obtained from Roboflow into Colab's environment.
+                                   ALGORITHM: YOLO V8 (Deep Learning) , Classification model metrics for evaluating the model.
+                                   FEATURES: Detects and classifies fire & smoke in real time images and can prevent forest fires at large scale.
+                                   OUTPUT: Predicts fire and smoke by making bounding boxes around it and did accurate predictions on test images
+                                           and also developed code for a  temporary gradio interface where one can upload images and it detects fire and smoke using classification metrics.
+
+2. MUFFINS Vs CUPCAKES USING SVM : 
+                                        GOAL: Classify a baking recipe as either a muffin or a cupcake based on its features by plotting graph.
+                                        DATASET: Uploaded dataset through Kaggle in CSV format.
+                                        ALGORITHM: Support Vector Machine (SVM) for classification.
+                                                   Pandas and NumPy for data handling and preprocessing.
+                                                   Matplotlib and Seaborn is used for plotting and visualisation.
+                                        OUTPUT: Built graphs which separates both classes Muffin and Cupcake by making a hyperplane after fitting model on graph and predicts
+                                                whether its a Muffin or Cupcake on basis of main two features Flour & Sugar obtained through Kaggle.
+
+3. IRIS FLOWER CLASSIFICATION: 
+                                GOAL: Predict the species of an Iris flower based on sepal and petal dimensions and make a Confusion Matrix on that basis.
+                                DATASET: Uploaded a classic Iris dataset from sklearn.datasets .
+                                ALGORITHM: Random Forest Classifier (scikit-learn).
+                                FEATURES: Sepal length , Sepal width , Petal length , Petal width.
+                                OUTPUT:  Confusion Matrix  and Classification report ( accuracy, precision , recall , F1 score)
+                                                
+                                        
